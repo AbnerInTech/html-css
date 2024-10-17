@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalização</title>
+    <style>
+        body {
+            font-weight: normal;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            color: green;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        a:active {
+            color: red;
+            font-weight: bold;
+        }
+
+        a::before {
+            content: " *";
+        }
+        a::after {
+            content: " (link)";
+            color: rgb(143, 143, 10);
+        }
+        .jogo::after {
+                content: " [jogo]";
+                color: rgba(0, 0, 255, 0.699);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando linkos</h1>
+    <ul>
+        <li><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
+        <li><a href="https://www.roblox.com/games/4442272183/Blox-Fruits-Second-Sea" target="_blank" class="jogo">Roblox</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Insta</a></li>
+    </ul>
+</body>
+</html>
