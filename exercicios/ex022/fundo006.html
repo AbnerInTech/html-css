@@ -6,18 +6,25 @@
     <title>Testanddo Tamanhos</title>
     <style>
         body {
-            background-color: black;
+            /*background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
             background-repeat: repeat-y;
             background-position: center center;
             background-size: cover;
-            height: 100vh;
+            background-attachment: fixed;
+            height: 100vh;*/
+
+            /* Shorthand - Background
+                color > image > repeat > position > size > attachment*/
+
+            background: black url("imagens/wallpaper002.jpg") no-repeat center center fixed;
+            background-size: cover;
         }
 
         main {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
             padding: 10px;
-            border: darkblue 1px;
+            border: darkblue 1px solid;
             border-radius: 10px;
             width: 400px;
             margin: auto;
