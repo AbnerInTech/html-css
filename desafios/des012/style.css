@@ -1,22 +1,33 @@
 @charset "UTF-8";
 
-body {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    padding: 0px;
     margin: 0px;
+}
+
+body {
+
 }
 
 header {
     background: black;
     color: white;
     text-align: center;
-    padding: 5px;
+    font-size: 3vw;
+    padding: 3vw;
 }
 
 header > h1 {
-
+    font-family: "Passion One";
+    font-size: 10vw;
 }
 
 header > p {
-
+    font-size: 1vw;
 }
 
 header > p > a {
@@ -28,11 +39,17 @@ header > p > a:hover {
     text-decoration: underline;
 }
 
+main {
+    font-size: 3.5vw;
+    font-family: "Sriracha";
+
+}
+
 section {
-    font-size: 1.5em;
-    line-height: 1.5em;
+    line-height: 2.25em;
     max-width: 4000px;
     min-width: 100px;
+    padding: 30px;
 }
 
 section.lax {
@@ -49,8 +66,8 @@ section#lax1 {
 section#lax1 > p {
     color: white;
     background: rgba(0, 0, 0, 0.356);
-    max-width: 200px;
-    padding: 10px;
+    max-width: 46vw;
+    padding: 15px;
     margin: 15px;
 }
 
@@ -61,8 +78,9 @@ section#lax2 {
 section#lax2 > p {
     color: white;
     background: rgba(0, 0, 0, 0.356);
-    width: 175px;
+    max-width: 46vw;
     margin: 20px;
+    padding: 15px;
 }
 
 footer {
