@@ -13,27 +13,37 @@
             border-collapse: collapse;
         }
 
+        Caption {
+            background-color: lightgray;
+            font-weight: bold;
+            height: 15px;
+            padding: 10px;
+        }
+
         th {
             border: solid black 1px;
+            width: 100px;
+            padding: 3px;
         }
 
         td {
-            width: 25vw;
+            width: 150px;
             border: solid black 1px;
-            padding: 3px;
+            padding: 5px;
         }
     </style>
 </head>
 <body>
     <table>
+        <Caption>Filmes Favoritos</Caption>
         <thead>
-            <th >Grupo</th>
-            <th>Nomes</th>
-            <th colspan="3">Filmes</th>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="col">Filmes</th>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th scope="row" rowspan="3">Mulheres</th>
                 <td>Ana Maria</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -52,7 +62,7 @@
                 <td>Big Herp</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th scope="colgroup" rowspan="3">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
@@ -61,10 +71,15 @@
             <tr>
                 <td>Daniel Lourença</td>
                 <td>Wall-e</td>
-                <td>Taxi Driver</td>
+                <td>OldBoy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabio Motta</td>
+                <td>Star Wars 5</td>
+                <td> Taxi Driver</td>
                 <td>Toy Story</td>
             </tr>
-            <tr></tr>
         </tbody>
     </table>
 </body>
