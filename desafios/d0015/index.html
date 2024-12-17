@@ -9,34 +9,52 @@
             margin: 0px;
             padding: 0px;
         }
+
         body {
-            background:  url("imagens/fundo-madeira.jpg") no-repeat;
-            background-size: cover
+            background: url("imagens/fundo-madeira.jpg") no-repeat center center fixed;
+            background-size: cover;
         }
 
-
-        #telefone {
-            display: ;
-            position: relative;
-
+        #celular {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
             background: url("imagens/frame-iphone.png") no-repeat center center;
-        }
-
-        iframe {
-            width: 311px;
             height: 627px;
+            width: 311px;
         }
 
+        #tela {
+            position: absolute;
+            display: inline-block;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
 
+        #apps {
+
+        }
+
+        #home {
+            
+        }
     </style>
 </head>
 <body>
     <main>
-
-        <section id="telefone"><iframe src="" frameborder="0"></iframe></section>
+        <section id="celular">
+            <div id="tela"><iframe src="home.html" height="471px" width="267px"></iframe></div>
+        </section>
 
         <section id="apps">
-
+            <div id="home"></div>
+            <div id="youtube"></div>
+            <div id="github"></div>
+            <div id="instagram"></div>
+            <div id="twiter"></div>
+            <div id="facebook"></div>
         </section>
     </main>
 </body>
