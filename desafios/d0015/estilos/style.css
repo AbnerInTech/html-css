@@ -39,3 +39,16 @@ iframe {
     width: 267px;
     height: 471px;
 }
+
+img {
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.534) 2px 1px 10px;
+    border-radius: 50%;
+    width: 67px;
+    height: 67px;
+    box-sizing: border-box;
+}
+
+section#apps a img:hover {
+    border: rgba(255, 255, 255, 0.582) 3px solid;
+}
