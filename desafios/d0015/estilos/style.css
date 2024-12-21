@@ -32,15 +32,30 @@ section#telefone {
     height: 627px;
 }
 
+section#apps {    
+    text-align: right;
+    position: relative;
+}
+
+section#apps a img:hover {
+    border: rgba(255, 255, 255, 0.582) 3px solid;
+    transform: translate(-7px, -7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s, border .5s;
+}
+
 iframe {
     position: relative;
-    top: 80px;
-    left: 22px;
+    top: 78px;
+    left: 21px;
     width: 267px;
     height: 471px;
 }
 
 img {
+    position: relative;
+
+
     margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.534) 2px 1px 10px;
     border-radius: 50%;
@@ -49,6 +64,4 @@ img {
     box-sizing: border-box;
 }
 
-section#apps a img:hover {
-    border: rgba(255, 255, 255, 0.582) 3px solid;
-}
+
