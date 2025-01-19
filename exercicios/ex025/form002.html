@@ -3,27 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Formulários</title>
+    <title>Formulário</title>
 </head>
 <body>
-    <h1>Testando Formulários</h1>
+    <h1>Teste de Formulário</h1>
     <form action="cadastro.js" method="post" autocomplete="off">
 
-        <p>
-            <label for="iusu">Usuario:</label>
-            <input type="text" name="usu" id="iusu" required>
+        <p><label for="iusu">Usuario:</label>
+            <input type="text" name="usu" id="iusu" required minlength="4" maxlength="10" size="10"
         </p>
-
         <p>
             <label for="isen">Senha:</label>
-            <input type="text" name="sen" id="isen" required>
+            <input type="password" name="sen" id="isen" required minlength="8" size="8">
         </p>
-
         <p>
             <input type="submit" value="Enviar">
-            <input type="reset" name="" id="">
+            <input type="reset" value="Limpar">
         </p>
-
     </form>
 </body>
 </html>
