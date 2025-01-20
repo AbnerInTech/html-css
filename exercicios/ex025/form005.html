@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.js">
+
+        <fieldset>
+            <legend>Gênero</legend>
+
+            <input type="radio" name="sexo" id="isxmas">
+            <label for="isxmas">Masculino</label>
+
+            <input type="radio" name="sexo" id="isxfe">
+            <label for="isxfe">Feminino</label>
+
+            <input type="radio" name="sexo" id="isxnb">
+            <label for="isxnb">Não Binário</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Instrutor(A) Responsável</legend>
+            <p>
+                <input type="checkbox" name="lai" id="ilai" checked autocomplete="">
+                <label for="ilai">Laila Rodrigues Ciqueira</label><br>
+
+                <input type="checkbox" name="rob" id="irob" checked> 
+                <label for="irob">Roberto Batista de Oliveira</label><br>
+
+                <input type="checkbox" name="wan" id="iwan">
+                <label for="iwan">Wanderson Rodrigues</label>
+            </p>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
