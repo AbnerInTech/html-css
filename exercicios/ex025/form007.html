@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    
+    <h1>Exempl de Fomulário</h1>
+    <form action="cadastro.js" method="get">
+
+        <p>
+            <label for="iest">Estado:</label>
+
+            <select name="est" id="iest">
+                <option value="esc">---ESCOLHA---</option>
+                <option value="nesc">---NÃO ESCOLHA---</option>
+
+                <optgroup label="Regões Malucas">
+                    <option value="MT">Mato Grosso</option>
+                    <option value="GB">Grama Baixa</option>
+                    <option value="JM">José Maluco</option>
+                </optgroup>
+
+                <optgroup label="Regiões Sãs"> 
+                    <option value="MG">Minas Gerais</option>
+                    <option value="CE">Caras Específicos</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+            </select>
+
+        <p>
+            <input type="reset" value="Sent">
+            <input type="reset" value="Clean">
+        </p>
+
+    </form>
+
+</body>
+</html>
