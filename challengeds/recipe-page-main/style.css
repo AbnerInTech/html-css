@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Outfit";
+    src: url("Outfit-VariableFont_wght.ttf") format(truetype), url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format(truetype);
+}
+body {
+    display: flex;
+
+    justify-content: center;
+
+    background-color: #F3E5D8;
+    font-family: 'Outfit';
+}
+.base {
+    padding: 25px;
+
+    background-color: white;
+    min-width: 300px;
+    max-width: 700px;
+
+    border-radius: 20px;
+}
+.imagem {
+    justify-content: center;
+    min-width: 300px;
+    max-width: 700px;
+
+    min-height: ;
+    max-height: ;
+
+    border-radius: 20px;
+}
+h1 {
+    padding: 0px;
+    font-weight: Normal;
+}
+.tempopreparacao {
+    background-color: #FFF8FC;
+}
+.tempopreparacao > h2 {
+    color: #997886;
+}
+h2 {
+    color: #965727;
+}
+li {
+    padding: 5px;
+}
